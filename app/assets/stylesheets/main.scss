@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+}
+.left {
+	background-color: black;
+	width: 0;
+	height: 100vh;
+}
+.middleleft {
+	background-color: tomato;
+	width: 50%;
+	height: 100vh;
+}
+.middleright {
+	background-color: dodgerblue;
+	width: 50%;
+	height: 100vh;
+}
+.right {
+	background-color: grey;
+	width: 0;
+	height: 100vh;
+}
+div {
+	box-sizing: border-box; 
+	display: inline-block;
+	float: left;
+}
