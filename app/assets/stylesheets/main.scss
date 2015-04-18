@@ -123,7 +123,32 @@ body {
 	width: 0;
 	height: 100vh;
 	visibility: hidden;
-	
+	.content {
+		height: 100%;
+		width: auto;
+		overflow-x: scroll;
+  	overflow-y: hidden;
+  	white-space: nowrap;
+  	box-sizing: border-box; 
+		.c {
+			background-color: blue;
+			height: 70vh;
+			width: 80%;
+			margin: 15vh 10%;
+			display: inline-block;
+		}
+	}
+		.links {
+  	position: fixed;
+  	bottom: 5vh;
+  	width: 75vw;
+  	width: 75vw;
+  	text-align: center;
+	  	a {
+	  		border-radius: 50%;
+	  		border: 1px solid black
+	  	}
+		}
 }
 div {
 	box-sizing: border-box; 
