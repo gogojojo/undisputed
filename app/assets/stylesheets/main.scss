@@ -85,11 +85,17 @@ body {
 	margin: 0;
 	font-family: 'Roboto Slab', serif;	
 	overflow-x: hidden;
+	background-image: url("http://media.giphy.com/media/BExvMjvKnmxdm/giphy.gif");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	overflow: hidden;
 }
 .left {
 	background-color: white;
 	width: 0;
 	height: 100vh;
+	visibility: hidden;
+	overflow: auto;
 	h1 {
 		text-align: center;
 		font-family: 'Megrim', cursive;
@@ -98,16 +104,17 @@ body {
 	p {
 		width: 80%;
 		margin: 0 10%;
-		display: none;
 	}
 }
 .middleleft {
-	background-color: tomato;
+	background-color: dodgerblue;
+	opacity: 0.7;
 	width: 50%;
 	height: 100vh;
 }
 .middleright {
-	background-color: dodgerblue;
+	background-color: black;
+	opacity: 0.7;
 	width: 50%;
 	height: 100vh;
 }
@@ -115,6 +122,8 @@ body {
 	background-color: white;
 	width: 0;
 	height: 100vh;
+	visibility: hidden;
+	
 }
 div {
 	box-sizing: border-box; 
