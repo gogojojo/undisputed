@@ -8,6 +8,7 @@ $(function(){
 			$('.middleright').css("width","0%");
 			$('.right').css("width","0%");
 			$('.icon').css("opacity","0");
+			$('.miniiconleft').css("opacity","1");
 			active = false;
 		} else if (active == false) {
 			$('.middleright').css("width","50%");
@@ -15,6 +16,7 @@ $(function(){
 			$('.middleleft').css("width","50%");
 			$('.left').css("width","0%");
 			$('.icon').css("opacity","1");
+			$('.miniiconleft').css("opacity","0");
 			active = true;
 		}
 	});
@@ -26,6 +28,7 @@ $(function(){
 			$('.middleleft').css("width","0%");
 			$('.left').css("width","0%");
 			$('.icon').css("opacity","0");
+			$('.miniiconright').css("opacity","1");
 			active = false;
 		} else if(active == false) {
 			$('.middleright').css("width","50%");
@@ -33,6 +36,7 @@ $(function(){
 			$('.middleleft').css("width","50%");
 			$('.left').css("width","0%");
 			$('.icon').css("opacity","1");
+			$('.miniiconright').css("opacity","0");
 			active = true;
 		}
 	});
