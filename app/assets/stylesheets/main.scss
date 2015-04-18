@@ -7,10 +7,13 @@
   line-height: 100vh;
   text-align: center;
   pointer-events: none;
+  font-family: 'Megrim', cursive;
   span {
 	  display: inline-block;
 	  vertical-align: middle;
-	  line-height: normal;      
+	  line-height: normal;
+		font-size: 20px;   
+		color: white;   
 	}
 }
 
