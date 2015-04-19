@@ -1,4 +1,10 @@
 $(function(){
+	$('.shop a').mouseenter(function(){
+		$('.shop a').empty().html('COMING SOON')
+	})
+	$('.shop a ').mouseleave(function(){
+		$('.shop a').empty().html('SHOP')
+	})
 	var active = true
 
 	$('.middleleft').click(function(){
